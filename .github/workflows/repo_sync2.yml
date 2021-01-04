@@ -17,7 +17,7 @@ jobs:
       with:
         src: github/zsh35
         dst: gitee/zsh35
-         static_list: "JDscript"
+         static_list:"JDscript"
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
         force_update: true
